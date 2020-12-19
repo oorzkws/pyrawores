@@ -28,8 +28,8 @@ ITEM("copper-cable"):set("icon_size", 32)
 
 --RECIPES UPDATES
 
-RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
-RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 8}):set_fields {energy_required = 10}
+--RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
+--RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 8}):set_fields {energy_required = 10}
 
 FUN.ing_adjust("steel-plate","iron-plate",10)
 RECIPE("steel-plate"):set_fields {energy_required = 15}

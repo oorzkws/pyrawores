@@ -21,3 +21,12 @@ for _, preset in pairs(data.raw["map-gen-presets"]["default"]) do
       preset.basic_settings.autoplace_controls['coal'] = nil
     end
 end
+
+data.raw['mining-drill']['electric-mining-drill'].mining_speed = 15
+
+data.raw.furnace['stone-furnace'].crafting_categories = {'basic-smelting-1','smelting'}
+data.raw.furnace['steel-furnace'].crafting_categories = {'basic-smelting-2'}
+data.raw.furnace['electric-furnace'].crafting_categories = {'basic-smelting-3'}
+data.raw.furnace['electric-furnace'].crafting_speed = 3
+
+RECIPE('copper-plate'):set_fields {enabled = false}

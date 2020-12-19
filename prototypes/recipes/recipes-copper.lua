@@ -1,4 +1,63 @@
 
+--Starting plate--
+
+RECIPE {
+    type = "recipe",
+    name = "copper-plate-basic",
+    category = "basic-smelting-1",
+    enabled = true,
+    energy_required = 1,
+    ingredients = {
+        {type = "item", name = "copper-ore", amount = 45}
+    },
+    results = {
+        {type = "item", name = "copper-plate", amount = 1}
+    },
+    main_product = "copper-plate",
+    --icon = "__pyraworesgraphics__/graphics/icons/ore-copper-screening.png",
+    --icon_size = 32,
+    subgroup = "py-rawores-copper",
+    order = 'a'
+}
+
+RECIPE {
+    type = "recipe",
+    name = "copper-plate-basic-2",
+    category = "basic-smelting-2",
+    enabled = true,
+    energy_required = 2,
+    ingredients = {
+        {type = "item", name = "copper-ore", amount = 90}
+    },
+    results = {
+        {type = "item", name = "copper-plate", amount = 1}
+    },
+    main_product = "copper-plate",
+    --icon = "__pyraworesgraphics__/graphics/icons/ore-copper-screening.png",
+    --icon_size = 32,
+    subgroup = "py-rawores-copper",
+    order = 'b'
+}
+
+RECIPE {
+    type = "recipe",
+    name = "copper-plate-basic-3",
+    category = "basic-smelting-3",
+    enabled = true,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "copper-ore", amount = 135}
+    },
+    results = {
+        {type = "item", name = "copper-plate", amount = 1}
+    },
+    main_product = "copper-plate",
+    --icon = "__pyraworesgraphics__/graphics/icons/ore-copper-screening.png",
+    --icon_size = 32,
+    subgroup = "py-rawores-copper",
+    order = 'c'
+}
+
 ---PROCESSING RECIPES---
 
 RECIPE {

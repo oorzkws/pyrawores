@@ -127,4 +127,16 @@ data:extend {
         type = "recipe-category",
         name = "py-rawores-smelter"
     },
+    {
+        type = "recipe-category",
+        name = "basic-smelting-1"
+    },
+    {
+        type = "recipe-category",
+        name = "basic-smelting-2"
+    },
+    {
+        type = "recipe-category",
+        name = "basic-smelting-3"
+    },
 }
